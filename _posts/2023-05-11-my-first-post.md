@@ -87,6 +87,15 @@ title: My First Post
 
 {% include vehicle_crashes_map.html %} 
 
+<div class="text-container">
+<h3> Conclusion </h3>
+      <p> Our extensive analysis of the causes, trends, and geographic distribution of automobile collisions in Nyc from 2013 through 2022 offered valuable insights. Over the years, we noticed a steady crash rate with a vastly disproportionate number of injuries to fatalities. The main reasons for collisions have changed over time, and some areas, such West Village, have had a higher rate of collisions. Rain in particular emerged as a sophisticated element affecting collision fatalities. Though it requires more work, our machine learning approach showed promise in terms of forecasting crash outcomes. Although there are relatively few accidents involving alcohol, their serious repercussions cannot be disregarded. The importance of data analysis and predictive modeling in boosting traffic safety and planning efficient emergency responses is highlighted by this study.
+
+ </p>
+</div>
+
+
+
 </div>
 
 <style>
