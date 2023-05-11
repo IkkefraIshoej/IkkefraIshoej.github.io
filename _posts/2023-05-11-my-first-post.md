@@ -24,7 +24,57 @@ title: My First Post
       <p>The plot shows that most of the crashes are labeled as unspecified, therefore this category will be removed to get a clearer view of the distribution of the crashes that actually has a category. </p>
     </div>
   </div>
-  
+<div class="text-container">
+      <p>The plot below shows the distribution for the top 14 factors over the years from 2013-2022. It is clear that some of the categories were removed over the years. We can see that turning improperly went down, and that all factors took a natural big drop during the covid years, with the exception of drivers disregarding traffic control, that seems to be steady throughout the years.  </p>
+</div>
+ <div class="image-container">
+    <img src="/assets/factoryear.png" alt="My Image">
+</div>
+
+<div class="text-container">
+      <p>The next plot shows the distribution for each of the focus factors throughout the 168 hours of the week. The most interessting takeaway from the plots are that the traffic control disregarded seems to be high on all hours of the week, meaning it is more comon for that to occur during the night than most of the other categories. We can also see that passing too closely goes down in the weekend, which might be because people are not as much in a hurry as they are on weekdays. Almost all of the categories peak on friday afternoon, probably because people want to go home.   </p>
+</div>
+ <div class="image-container">
+    <img src="/assets/168hours.png" alt="My Image">
+</div>
+
+<div class="text-container">
+      <p>Next we want to explore the distribution of crashes troughout the different areas of manhatten for each factor. The plot shows that particularily the neighbourhood West Village, alot of the categories peak. This might be due to to the fact that the other areas sets the factor as unspecified, or simply that the area needs to apply changes for it to be more safe. In general there are less counts of crashes for almost all categories in the north of Manhatten. </p>
+</div>
+ <div class="image-container">
+    <img src="/assets/maps.png" alt="My Image">
+</div>
+
+<div class="text-container">
+      <p>We wanted to look how rain affects the number of casualties. So this plot shows the crashes with casualties when it rains as the purple heatmap, and the red dots as the crashes with casualties when it does not rain </p>
+</div>
+
+{% include rainmap.html %} 
+
+<div class="text-container">
+      <p>A machine learning model was created, hoping that we could try to predict wheter or not a person was injured or killed in a crash. Application for this could be a warning system for the nearest emergency room, as they would be better prepared when an accident happens in their area. The first step was to examine the correlation between the variables in the dataset, and the result can be seen in the correlation matrix below. The variable does not correlate much, so the hopes for the model wasn't much. We decided to go with a randomforrestclassifier, and a variable indicating if a person was either injured or killed in the crash was added.
+ </p>
+</div>
+
+ <div class="image-container">
+    <img src="/assets/correlation.png" alt="My Image">
+</div>
+
+<div class="text-container">
+      <p> The resulting model had an accuracy of 86%, and the confusion matrix shows the results that we had on the test set, which was 30% of the data. Not an impressive model result, but it was able to classify some of the crashes that had injuries or fatalities the right way.
+ </p>
+</div>
+
+ <div class="image-container">
+    <img src="/assets/confusion.png" alt="My Image">
+</div>
+<div class="text-container">
+      <p> Lastly we also wanted to include how the Alchohol involvement factor looked over the years, surprisingly there are not many records in the dataset where alcohol was the leading factor. The animation below shows the location of the vehicle crashes over the years on Manhatten. There doesn't seem to be a specific place where the alchohol incidents occur, but as there are over 2000 bars in manhatten,  that would also be surprising.
+ </p>
+</div>
+
+{% include vehicle_crashes_map.html %} 
+
 </div>
 
 <style>
@@ -35,7 +85,7 @@ body {
 }
 
 .post-content {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 80%;
   background-color: #212946;
   padding: 20px;
