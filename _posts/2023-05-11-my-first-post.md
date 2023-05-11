@@ -17,13 +17,25 @@ title: My First Post
       <p>It is easy to see that the crashes are more or less constant over the years, with two exceptions. In 2016 the crashes dropped significantly in April, and then COVID-19 hit in March 2020, leading to many fewer crashes, which has continued in the previous two years. The next thing to look for is the distribution of reasons for crashes.</p>
     </div>
   </div>
-  
+
+<div class="image-container">
+    <img src="/assets/weatherinjured.png" alt="My Image">
+  </div>
+  <div class="image-container">
+    <img src="/assets/weatherdeath.png" alt="My Image">
+  </div>
+  <div class="text-container">
+    <p>Regarding the injuries and deaths numbers related to the vehicle crashes, overall the numbers of injuries is dramatically higher than the deaths. The numbers of motorist injured have the highest number among the three different weather conditions, which are 'Clear', 'Rain' and 'Snow'. The numbers of pedestrians injured ranked second, and the third place goes to the number of motorist injured.</p>
+  </div>
+
+
   <div class="image-container">
     <img src="/assets/factor.png" alt="My Image">
     <div class="text-container">
       <p>The plot shows that most of the crashes are labeled as unspecified, therefore this category will be removed to get a clearer view of the distribution of the crashes that actually has a category. </p>
     </div>
   </div>
+
 <div class="text-container">
       <p>The plot below shows the distribution for the top 14 factors over the years from 2013-2022. It is clear that some of the categories were removed over the years. We can see that turning improperly went down, and that all factors took a natural big drop during the covid years, with the exception of drivers disregarding traffic control, that seems to be steady throughout the years.  </p>
 </div>
@@ -103,7 +115,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; /* Center images horizontally */
-  width: 100%; /* Make the image container full width */
+  width: auto; /* Make the image container full width */
 }
 
 .text-container {
