@@ -19,19 +19,17 @@ title: My First Post
   </div>
   
   <div class="image-container">
-    <img src="/assets/years2.png" alt="My Image">
+    <img src="/assets/factor.png" alt="My Image">
     <div class="text-container">
-      <p>This is some text next to the second image.</p>
+      <p>The plot shows that most of the crashes are labeled as unspecified, therefore this category will be removed to get a clearer view of the distribution of the crashes that actually has a category. </p>
     </div>
   </div>
-  
-  <p>This is some text below the images.</p>
   
 </div>
 
 <style>
   body {
-    background: linear-gradient(to right, #212946, #A267F5);
+    background: linear-gradient(to right, #6CACE4, white , #F15524);
   }
   
   .post-content {
@@ -43,16 +41,21 @@ title: My First Post
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 26px;
+    font-size: 22px;
   }
   
   .image-container {
     margin-top: 20px;
-    display: flex; /* Use flexbox layout */
-    align-items: center; /* Vertically center elements */
+    display: flex;
+    align-items: center;
   }
   
   .text-container {
-    margin-left: 20px; /* Add some space between image and text */
+    margin-left: 20px;
+  }
+  
+  img {
+    height: auto; /* Set a fixed width for all images */
+    width: auto
   }
 </style>
