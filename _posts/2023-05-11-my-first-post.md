@@ -62,7 +62,7 @@ body {
 }
 
 img {
-  max-width: 100%; /* Make images responsive */
+  max-width: 70%; /* Make images responsive */
   height: auto;
 }
 </style>
