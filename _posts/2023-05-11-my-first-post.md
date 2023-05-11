@@ -28,34 +28,42 @@ title: My First Post
 </div>
 
 <style>
-  body {
-    background: linear-gradient(to right, #6CACE4, white , #F15524);
-  }
-  
-  .post-content {
-    margin: 0 auto;
-    max-width: 70%;
-    background-color: #212946;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 22px;
-  }
-  
-  .image-container {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .text-container {
-    margin-left: 20px;
-  }
-  
-  img {
-    height: auto; /* Set a fixed width for all images */
-    width: auto
-  }
+body {
+  background: linear-gradient(to right, #212946, #A267F5);
+  margin: 0;
+  padding: 0;
+}
+
+.post-content {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: #212946;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px; /* Reduce the font size */
+  box-sizing: border-box;
+  overflow: hidden; /* Hide horizontal scrollbars */
+}
+
+.image-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center images horizontally */
+  width: 100%; /* Make the image container full width */
+}
+
+.text-container {
+  margin: 0 20px;
+  text-align: justify; /* Justify the text */
+}
+
+img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+}
 </style>
+
