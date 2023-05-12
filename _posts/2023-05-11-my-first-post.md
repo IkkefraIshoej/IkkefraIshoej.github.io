@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: My First Post
+title: Final project 
 ---
 
 <div class="post-content">
@@ -132,6 +132,7 @@ body {
   font-size: 26px; /* Reduce the font size */
   box-sizing: border-box;
   overflow: hidden; /* Hide horizontal scrollbars */
+  border-radius: 25px;
 }
 
 .image-container {
