@@ -18,6 +18,14 @@ title: My First Post
     </div>
   </div>
 
+
+  <div class="image-container">
+    <img src="/assets/weathercrash.png" alt="My Image">
+    <div class="text-container">
+      <p>From this plot , it is easy to see the peak temperature of causing crashes is around 23 degree, basically summertime. It is reasonable to tell the truth with higher temperature, people are less patient. This could be a potential reason to increase the risk of vehicle crash.</p>
+    </div>
+  </div>
+
 <div class="image-container">
     <img src="/assets/weatherinjured.png" alt="My Image">
   </div>
@@ -26,6 +34,13 @@ title: My First Post
   </div>
   <div class="text-container">
     <p>Regarding the injuries and deaths numbers related to the vehicle crashes, overall the numbers of injuries is dramatically higher than the deaths. The numbers of motorist injured have the highest number among the three different weather conditions, which are 'Clear', 'Rain' and 'Snow'. The numbers of pedestrians injured ranked second, and the third place goes to the number of motorist injured.</p>
+  </div>
+
+<div class="image-container">
+    <img src="/assets/neighbourbar.png" alt="My Image">
+    <div class="text-container">
+      <p>When we take a look into the vehicle crash frequency by neighbourhood, we can figured out from the plot that the neighbourhood'Midtown-Midtown South' has the highest crash rate with more than 35000 crashes in total. The second highest neighbourhood is 'Hudson Yards-Chelsea-Flatiron-Union Square' covering approximately 28500 crashes. The third places goes to the neighbourhood 'SoHo-TriBeCa-Civic Center-Little Italy', the crash number roughly around 22500. The lowest crash rate neighbourhood is 'Stuyvesant Town-Cooper Village', only has about 1500 crash in total. The gap betwwen the hightest and the lowest is really huge.</p>
+    </div>
   </div>
 
 
