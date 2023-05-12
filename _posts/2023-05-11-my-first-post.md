@@ -4,7 +4,7 @@ title: Final project
 ---
 
 <div class="post-content">
-<h1> New york crashes </h1>
+<h1> New york vehicle crashes </h1>
 <h3> A visualization story </h3>
 
   <p>The aim of this visualization story is to give readers an overview of crashes in Manhatten - NYC - from 2013-2022. Furthermore, we have also created a machine learning model that tries to predict wheter or not a person has been injured or killed in a crash. The usecase for this could be to register data and then alert nearby emergency rooms with a warning when a crash occurs. 
